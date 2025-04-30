@@ -4,7 +4,7 @@ Ce code est une version légèrement modifiée du guide officiel de discord.js a
 
 Il vous suffit de mettre l'ID de votre bot et son token dans le fichier `config.json` puis de faire `node index.js` pour lancer votre bot.
 
-> Si vous avez besoin d'aide vous pouvez  rejoindre le serveur de mon bot et demander de l'aide dans le salon informatique: https://discord.gg/Cxv2Q3WnxV
+> Si vous avez besoin d'aide vous pouvez rejoindre le serveur de mon bot et demander de l'aide dans le salon informatique: https://discord.gg/Cxv2Q3WnxV
 
 
 ## Installation
@@ -18,8 +18,7 @@ Il vous suffit de mettre l'ID de votre bot et son token dans le fichier `config.
 
 ## Liens utiles
 
-- Hébergeur gratuit DarkHosts: https://discord.gg/tFY2R3pbnv
-- Portail des développeurs: https://discord.com/developers
+- Portail des développeurs Discord: https://discord.com/developers
 - Serveur de discord.js: https://discord.gg/djs
 - Guide officiel de discord.js: https://discordjs.guide
 - Documentation de discord.js: https://discord.js.org/docs
