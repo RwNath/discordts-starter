@@ -16,7 +16,7 @@ module.exports = client => {
             if("data" in command && "execute" in command) {
                 client.commands.set(command.data.name, command);
             } else {
-                console.log(`[WARNING]La commande au chemin "${filePath}" n'a pas la propriété "data" ou "execute".`);
+                console.log(`[WARNING] La commande au chemin "${filePath}" n'a pas la propriété "data" ou "execute".`);
             }
         }
     }
