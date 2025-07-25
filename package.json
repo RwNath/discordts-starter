@@ -1,13 +1,13 @@
 {
   "name": "discordts-starter",
   "version": "1.0.0",
-  "description": "Le code.",
+  "description": "Le code du répertoire discordts-starter.",
   "main": "index.js",
   "type": "commonjs",
-  "author": "Cbrra (619838036846575617)",
+  "author": "RwNath",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cbrra/discordjs-starter/issues"
+    "url": "https://github.com/RwNath/discordts-starter/issues"
   },
   "scripts": {
     "build": "rimraf dist && tsc --noEmit && swc src -d dist --copy-files --strip-leading-paths",
