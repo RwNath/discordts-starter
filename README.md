@@ -2,8 +2,8 @@
 
 A modern starter template to build Discord bots using TypeScript and Discord.js.
 
-![TypeScript Docs](https://www.typescriptlang.org/docs/)
-![Install Node.js](https://nodejs.org/fr/download/)
+[TypeScript Docs](https://www.typescriptlang.org/docs/)
+[Install Node.js](https://nodejs.org/fr/download/)
 
 # Required Installation
 Here the command to run for install all packages :
