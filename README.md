@@ -1,19 +1,21 @@
 # Discordts-starter 🚀
 
-A modern starter template to build Discord bots using TypeScript and Discord.js.
+Un modèle de démarrage moderne pour créer des bots Discord avec TypeScript et Discord.js.
 
-[TypeScript Docs](https://www.typescriptlang.org/docs/)
-[Install Node.js](https://nodejs.org/fr/download/)
+[Documentation TypeScript](https://www.typescriptlang.org/docs/)  
+[Installer Node.js](https://nodejs.org/fr/download/)
 
-# Required Installation
-Here the command to run for install all packages :
+# Installation requise
 
-``npm i``
+Voici la commande à exécuter pour installer tous les packages :
 
-# Command
-Here are the commands to get started with using the template.
+`npm i`
 
-``npm run build`` : Use npm run build to compile the TypeScript.
-``npm run start`` : Run npm run start to launch the bot.
+# Commandes
 
-Huge thanks to [Cbrra](https://github.com/Cbrra) 💖
+Voici les commandes pour commencer à utiliser le modèle :
+
+`npm run build` : Utilisez cette commande pour compiler le TypeScript.  
+`npm run start` : Utilisez cette commande pour lancer le bot.
+
+Un grand merci à [Cbrra](https://github.com/Cbrra) 💖
