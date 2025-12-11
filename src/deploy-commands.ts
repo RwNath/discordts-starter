@@ -7,8 +7,8 @@ import {
   Routes,
   RESTPostAPIChatInputApplicationCommandsJSONBody,
 } from "discord.js";
-import config from "./config.json";
-import { Command } from "./structures/interface";
+import config from "@/config.json";
+import { Command } from "@/structures/interface";
 
 const commands: RESTPostAPIChatInputApplicationCommandsJSONBody[] = [];
 // Grab all the command folders from the commands directory you created earlier

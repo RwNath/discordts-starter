@@ -3,9 +3,8 @@ import {
   EmbedBuilder,
   ChatInputCommandInteraction,
 } from "discord.js";
-import { Command } from "../../structures/interface";
 
-const serverInfo: Command = {
+export default {
   data: new SlashCommandBuilder()
     .setName("server-info")
     .setDescription("Affiche des informations sur ce serveur."),
@@ -19,12 +18,11 @@ const serverInfo: Command = {
         iconURL: interaction.user.displayAvatarURL(),
       })
       .setDescription(
-        `Ce serveur est **${interaction.guild.name}** et possède **${interaction.guild.memberCount}** membres.`,
+        `Ce serveur est **${interaction.guild.name}** et possède **${interaction.guild.memberCount}** membres.`
       )
-      .setThumbnail(interaction.guild.iconURL());
+      .setThumbnail(interaction.guild.iconURL())
+      .setTimestamp();
 
     await interaction.reply({ embeds: [embed] });
   },
 };
-
-export default serverInfo;

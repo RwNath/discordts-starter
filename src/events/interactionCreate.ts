@@ -1,7 +1,7 @@
 import { ClientEvents, Events, MessageFlags } from "discord.js";
-import { Command } from "../structures/interface.js";
+import { Command } from "@/structures/interface.js";
 
-module.exports = {
+export default {
   name: Events.InteractionCreate,
   async execute(...[interaction]: ClientEvents[Events.InteractionCreate]) {
     if (!interaction.isChatInputCommand()) return;

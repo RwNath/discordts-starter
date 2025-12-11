@@ -1,4 +1,4 @@
-import { Event } from "../structures/interface";
+import { Event } from "@/structures/interface";
 import { Client } from "discord.js";
 import fs from "node:fs";
 import path from "node:path";

@@ -1,8 +1,8 @@
 // Importation de discord.js et des fichiers nécessaires
 import { Client, Collection, GatewayIntentBits } from "discord.js";
-import config from "./config.json";
-import loadCommands from "./loaders/loadCommands";
-import loadEvents from "./loaders/loadEvents";
+import config from "@/config.json";
+import loadCommands from "@/loaders/loadCommands";
+import loadEvents from "@/loaders/loadEvents";
 
 // Création le client Discord
 const client = new Client({
